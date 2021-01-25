@@ -271,7 +271,8 @@ label{
 
 
 /* ----- -----  Mediaqueries ----- ----- */
-@media screen and (max-width: 800px) {
+@media screen (min-width:300px)  and (max-width: 800px) {
+	 
 	.formulario {
 		grid-template-columns: 1fr;
 	}
